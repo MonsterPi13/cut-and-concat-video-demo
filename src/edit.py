@@ -8,8 +8,8 @@ videoquality = "24"
 compression = "slow"
 
 title = "test"
-loadtitle = title + ".mp4"
-savetitle = "test_1.mp4"
+loadtitle = "./src/" + title + ".mp4"
+savetitle = "./src/" + "output.mp4"
 
 # modify these start and end times for your subclips
 cuts = [("00:00:03.949", "00:00:05.152"), ("00:00:06.328", "00:00:13.077")]
@@ -29,7 +29,7 @@ def edit_video(loadtitle, savetitle, cuts):
 
     # add text
     txt = mpy.TextClip(
-        "nange's private kitchen",
+        "welcome to nange's private kitchen",
         font="Courier",
         fontsize=30,
         color="white",
