@@ -8,5 +8,9 @@
 ## bash
 
 ```
+# Install dependencies
+pip install -r requirement.txt
+
+# Exec script
 python ./src/edit.py
 ```
