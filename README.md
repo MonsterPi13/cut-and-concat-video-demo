@@ -8,5 +8,5 @@
 ## bash
 
 ```
-python edit.py
+python ./src/edit.py
 ```
